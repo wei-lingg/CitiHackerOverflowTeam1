@@ -1,0 +1,360 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>GoalDiggers | Vouchers Marketplace</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="../static/img/favicon.ico">
+
+    <!-- CSS here -->
+        <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="../static/css/flaticon.css">
+        <link rel="stylesheet" href="../static/css/slicknav.css">
+        <link rel="stylesheet" href="../static/css/animate.min.css">
+        <link rel="stylesheet" href="../static/css/magnific-popup.css">
+        <link rel="stylesheet" href="../static/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="../static/css/themify-icons.css">
+        <link rel="stylesheet" href="../static/css/slick.css">
+        <link rel="stylesheet" href="../static/css/nice-select.css">
+        <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<style>
+
+    /* :: 10.0 Team Member Area CSS */
+.single-team-member-area {
+  position: relative;
+  z-index: 1;
+  text-align: center; }
+  .single-team-member-area .team-thumb {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: relative;
+    z-index: 1;
+    width: 180px;
+    border-radius: 50%;
+    margin: 0 auto 40px;
+    height: 180px; }
+    .single-team-member-area .team-thumb::after {
+      -webkit-transition-duration: 500ms;
+      transition-duration: 500ms;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      border: 8px solid #003679;
+      top: 0;
+      left: 0;
+      position: absolute;
+      z-index: 100;
+      border-radius: 50%;
+      opacity: 0;
+      visibility: hidden; }
+    .single-team-member-area .team-thumb img {
+      border-radius: 50%; }
+    .single-team-member-area .team-thumb .view-more a {
+      position: absolute;
+      width: 62px;
+      height: 62px;
+      border-radius: 15px;
+      background-color: #ffbb38;
+      text-align: center;
+      bottom: -10px;
+      right: 0;
+      z-index: 300;
+      color: #ffffff;
+      line-height: 62px;
+      font-size: 18px; }
+      .single-team-member-area .team-thumb .view-more a:hover {
+        background-color: #003679; }
+    .single-team-member-area .team-thumb:hover {
+      box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2); }
+      .single-team-member-area .team-thumb:hover::after {
+        opacity: 1;
+        visibility: visible; }
+  .single-team-member-area .team-info {
+    position: relative;
+    z-index: 1; }
+    .single-team-member-area .team-info h5 {
+      -webkit-transition-duration: 500ms;
+      transition-duration: 500ms;
+      font-size: 18px;
+      margin-bottom: 5px; }
+    .single-team-member-area .team-info h6 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 0;
+      color: #6e6e6e; }
+  .single-team-member-area:hover .team-info h5 {
+    color: #ffbb38; }
+</style>
+
+<body>
+    <header>
+        <!-- Header Start -->
+        <div class="header-area">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="index"><img src="../static/img/logo/logo2.jpg" style="width: 150px;"></a>
+                        </div>
+                        <!-- Main-menu -->
+                        <div class="main-menu d-none d-lg-block">
+                            <nav>                                                
+                                <ul id="navigation">  
+                                    <li><a href="index">Home</a></li>
+                                    <li><a href="shop">shop</a></li>
+                                    <li><a href="about">about</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- Header Right -->
+                        <div class="header-right">
+                            <ul>
+                                <li> <a href="login"><span id="loginBtn">Login/Register</span></a></li>
+                                <li> <span id='logoutBtn' onclick=logout() >Logout</span></li>
+                                <li> <a href="vouchers"><span id="vouchersBtn">My Vouchers</span></a></li>
+                                <li> <a href="profile"><span id="profileBtn" class="flaticon-user"></span></a></li>
+                                <li><a href="cart"><span id="cartBtn" class="flaticon-shopping-cart"></span></a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Mobile Menu -->
+                    <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <main>
+        <!-- Hero Area Start-->
+        <div class="slider-area ">
+            <div class="single-slider slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap text-center">
+                                <h2>About Us</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Area End-->
+        <!-- About Details Start -->
+        <div class="about-details section-padding30">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-xl-1 col-lg-8">
+                        <div class="about-details-cap mb-50">
+
+                            <h4>Our Mission</h4>
+                            <p>To create and promote an environmentally friendly, seamless and satisfying click and mortar shopping experience for all ages. </p>
+                            <h4>Our Vision</h4>
+                            <p>Greener vouchers at your fingertips that won't clutter your wallet.</p>
+
+                        </div>
+
+                        <div class="about-details-cap mb-50">
+                            <h4>Our Team</h4>
+                                <!-- ##### Team Member Area Start ##### -->
+                                <section class="team-area section-padding-100-0">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <!-- Section Heading -->
+                                                <div class="section-heading text-center mb-100">
+                                                    <div class="line"></div>
+                                                    <p>Take look at our</p>
+                                                    <h2>Our team</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-lg-1"></div>
+                                            <!-- Single Team Member Area -->
+                                            <div class="col-12 col-sm-6 col-lg-2">
+                                                <div class="single-team-member-area mb-100">
+                                                    <div class="team-thumb">
+                                                        <img src="../static/img/team/brendon.jpg" alt="" style="width:90%;">
+                                                        <!-- View More -->
+                                                        <div class="view-more">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="team-info">
+                                                        <h5>Brendon</h5>
+                                                        <h6>CEO</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12 col-sm-6 col-lg-2">
+                                                <div class="single-team-member-area mb-100">
+                                                    <div class="team-thumb">
+                                                        <img src="../static/img/team/earnest.jpg" alt="" style="width:90%">
+                                                        <!-- View More -->
+                                                        <div class="view-more">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="team-info">
+                                                        <h5>Earnest</h5>
+                                                        <h6>CTO</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Single Team Member Area -->
+                                            <div class="col-12 col-sm-6 col-lg-2">
+                                                <div class="single-team-member-area mb-100">
+                                                    <div class="team-thumb">
+                                                        <img src="../static/img/team/jy.jpg" alt="" style="width:90%">
+                                                        <!-- View More -->
+                                                        <div class="view-more">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="team-info">
+                                                        <h5>Jia Ying</h5>
+                                                        <h6>CIO</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Single Team Member Area -->
+                                            <div class="col-12 col-sm-6 col-lg-2">
+                                                <div class="single-team-member-area mb-100">
+                                                    <div class="team-thumb">
+                                                        <img src="../static/img/team/wl.jpg" alt="" style="width:90%">
+                                                        <!-- View More -->
+                                                        <div class="view-more">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="team-info">
+                                                        <h5>Wei Ling</h5>
+                                                        <h6>COO</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Single Team Member Area -->
+                                            <div class="col-12 col-sm-6 col-lg-2">
+                                                <div class="single-team-member-area mb-100">
+                                                    <div class="team-thumb">
+                                                        <img src="../static/img/team/kh.jpg" alt="" style="width:90%">
+                                                        <!-- View More -->
+                                                        <div class="view-more">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="team-info">
+                                                        <h5>Kin Hou</h5>
+                                                        <h6>Intern</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </section>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Details End -->
+       
+    </main>
+    <footer>
+        <!-- Footer Start-->
+        <hr>
+        <div class="footer-area footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <!-- logo -->
+                                <div class="footer-logo mb-3">
+                                    <a href="index"><img src="../static/img/logo/logo2.jpg" style="width: 200px;"></a>
+                                </div>
+                                <div class="footer-tittle">
+                                    <div class="footer-pera">
+                                        <p>Greener vouchers at your fingertips that won't clutter your wallet.</p>
+                                        <p> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </footer>
+    <!-- Footer End-->
+
+    <!-- JS here -->
+    <script>
+        function logout(){
+            window.sessionStorage.setItem("userid", '');
+            window.location.href = '/login';
+        }
+
+        let userid = window.sessionStorage.getItem("userid");
+        console.log(userid);
+
+        if (userid==''){
+            document.getElementById('logoutBtn').style.display = "none";
+            document.getElementById('vouchersBtn').style.display = "none";
+            document.getElementById('profileBtn').style.display = "none";
+            document.getElementById('cartBtn').style.display = "none";
+        } else {
+            document.getElementById('loginBtn').style.display = "none";
+        }
+    </script>
+
+    <script src="../static/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="../static/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../static/js/popper.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="../static/js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="../static/js/owl.carousel.min.js"></script>
+    <script src="../static/js/slick.min.js"></script>
+
+    <!-- One Page, Animated-HeadLin -->
+    <script src="../static/js/wow.min.js"></script>
+    <script src="../static/js/animated.headline.js"></script>
+    <script src="../static/js/jquery.magnific-popup.js"></script>
+
+    <!-- Scrollup, nice-select, sticky -->
+    <script src="../static/js/jquery.scrollUp.min.js"></script>
+    <script src="../static/js/jquery.nice-select.min.js"></script>
+    <script src="../static/js/jquery.sticky.js"></script>
+    
+    <!-- contact js -->
+    <script src="../static/js/contact.js"></script>
+    <script src="../static/js/jquery.form.js"></script>
+    <script src="../static/js/jquery.validate.min.js"></script>
+    <script src="../static/js/mail-script.js"></script>
+    <script src="../static/js/jquery.ajaxchimp.min.js"></script>
+    
+    <!-- Jquery Plugins, main Jquery -->	
+    <script src="../static/js/plugins.js"></script>
+    <script src="../static/js/main.js"></script>
+
+</body>
+</html>
